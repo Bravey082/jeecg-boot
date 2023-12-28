@@ -10,3 +10,12 @@
 # 微服务启动项目在这里
 - 项目： jeecg-server-cloud/jeecg-system-cloud-start
 - 启动类：jeecg-server-cloud/jeecg-system-cloud-start/src/main/java/org/jeecg/JeecgSystemCloudApplication.java
+
+# 前端构建
+- npm config set registry https://registry.npmmirror.com/
+- npm install -g pnpm
+- pnpm install -g vite
+
+- 安装依赖 pnpm install
+
+- 运行项目 pnpm dev
